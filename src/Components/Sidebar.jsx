@@ -7,7 +7,7 @@ export default function Sidebar() {
             <NavLink className="sidebar-item" style={{textDecoration:'none', color: 'white'}} to="/ticker">
                 <p>Ticker Lookup</p>
             </NavLink>
-            <NavLink to="/financials">
+            <NavLink style={{textDecoration:'none', color: 'white'}} to="/financials">
                 <p className="sidebar-item">Financial Records</p>
             </NavLink>
             <NavLink to="/">
