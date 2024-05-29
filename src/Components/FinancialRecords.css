@@ -1,0 +1,49 @@
+.financial-tickerdata-container {
+    display: flex;
+}
+
+
+.financial-ticker-form {
+    display: flex;
+    position: relative;
+    margin-left: 42.5%;
+    margin-top: 50px;
+}
+
+.financial-calendar {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 120px;
+    height: 27px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid #011627;
+}
+
+.financial-ticker {
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0px;
+    height: 25px;
+    border: none;
+    border-radius: 7px;
+    outline: 1.5px solid #011627;
+}
+
+.tradingview-widget-container {
+    display: block;
+    margin-top: 100px;
+    margin-left: 375px;
+    width: 100px;
+    height: 1000px;
+}
+
+.tradingview-widget-container_widget {
+    display: block;
+    width: 100px;
+    height: 1000px;
+}

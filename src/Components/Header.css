@@ -1,0 +1,16 @@
+.header-container {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #011627;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.website-title {
+    color: aliceblue;
+    font-family: "Inter";
+    font-size: 60px;
+}

@@ -1,0 +1,27 @@
+.sidebar-container {
+    width: 160px;
+    position: absolute;
+    height: max-content;
+    background: #011627;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:aliceblue;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+}
+
+.sidebar-item {
+    display: flex;
+    height: 50px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.sidebar-item:hover {
+    cursor: pointer;
+    background: #1493fb;
+}
