@@ -1,0 +1,84 @@
+.income-statement-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 370px;
+    margin-left: -30px;
+}
+
+.row1-is {
+    display: flex;
+    gap: 200px;
+}
+
+.row7-is {
+    display: flex;
+    gap: 200px;
+}
+
+.row2-is {
+    display: flex;
+    gap: 240px;
+}
+
+.row8-is {
+    display: flex;
+    gap: 230px;
+}
+
+.row3-is {
+    display: flex;
+    gap: 140px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row9-is {
+    display: flex;
+    gap: 200px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row4-is {
+    display:flex;
+    gap:210px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row10-is {
+    display:flex;
+    gap: 180px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row5-is {
+    display: flex;
+    gap: 200px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row11-is {
+    display: flex;
+    gap: 130px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row6-is {
+    display: flex;
+    gap: 200px;
+}
+
+.row12-is {
+    display: flex;
+    gap: 240px;
+}

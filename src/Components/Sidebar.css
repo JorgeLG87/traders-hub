@@ -1,13 +1,13 @@
 .sidebar-container {
     width: 160px;
     position: absolute;
-    height: max-content;
+    height: 540px;
     background: #011627;
     padding-left: 25px;
     padding-right: 25px;
     color:aliceblue;
     border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-bottom-right-radius: 0px;
     
 }
 
@@ -17,8 +17,9 @@
     border-radius: 7px;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-top: 80px;
-
+    font-family: "Montserrat";
 }
 
 .sidebar-item:hover {

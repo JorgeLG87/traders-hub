@@ -2,6 +2,73 @@
     color: black;
     font-size: 20px;
     margin-left: 45%;
-    margin-top: 100px;
+    /* margin-top: 00px; */
 }
 
+.home-welcome-text-container {
+    background: linear-gradient(120deg, #011627, #1493fb);
+    background-clip: text;
+}
+
+.home-welcome-text {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: transparent;
+}
+
+.tradingview-widget-container {
+    display: flex;
+    position: relative;
+    margin-top: 00px;
+    /* margin-left: 210px; */
+    border-radius: 7px;
+    /* border: 1px solid black; */
+    width: 1000px;
+}
+
+.tradingview-widget-container_widget {
+    display: flex;  
+    border: 1px solid black; 
+    width: 1000px; 
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 210px;
+    height: 456.8px;
+    /* border: 1px solid black; */
+}
+
+.chart-container {
+    display: flex;
+    border: none;
+    /* background-color: #eee; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 7px;
+    padding: 50px;
+    margin-top: -300px;
+    width: 800px;
+    margin-left: 36.5%;
+    margin-bottom: 50px;
+}
+
+.chartside-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 70px;
+    background: linear-gradient(120deg, #011627, #1493fb);
+    background-clip: text;
+    width: 300px;
+}
+
+.chartside-text {
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: transparent;
+}

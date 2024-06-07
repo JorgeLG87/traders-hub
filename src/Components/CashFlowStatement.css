@@ -1,0 +1,48 @@
+.cashflow-statement-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 210px;
+    margin-left: -40px;
+}
+
+.row1-cfs {
+    display: flex;
+    gap: 350px;
+}
+
+.row5-cfs {
+    display: flex;
+    gap: 200px;
+}
+
+.row2-cfs {
+    display: flex;
+    gap: 320px;
+}
+
+.row6-cfs {
+    display: flex;
+    gap: 200px;
+}
+
+.row3-cfs {
+    display: flex;
+    gap: 180px;
+    
+}
+
+.row7-cfs {
+    display: flex;
+    gap: 180px;
+}
+
+.row4-cfs {
+    display: flex;
+    gap: 120px;
+    
+}
+
+.row8-cfs {
+    display: flex;
+    gap: 100px;
+}

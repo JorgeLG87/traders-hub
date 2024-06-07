@@ -1,0 +1,31 @@
+.comprehensive-income-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    margin-left: -40px;
+}
+
+.row1-ci {
+    display: flex;
+    gap: 230px;
+}
+
+.row4-ci {
+    display: flex;
+    gap: 200px;
+}
+
+.row2-ci {
+    display: flex;
+    gap: 50px;
+}
+
+.row5-ci {
+    display: flex;
+    gap: 50px;
+}
+
+.row3-ci {
+    display: flex;
+    gap: 100px;
+}

@@ -4,13 +4,16 @@
     grid-template-columns: repeat(3, 1fr);
     /* direction: rtl; */
     justify-content: center;
-    /* border: 1px solid black; */
-    margin-top: 125px;
-    width: 500px;
-    height: 305px;
-    margin-left: 40%;
-    gap: 120px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 140px;
+    width: 1300px;
+    height: 2000px;
+    margin-left: 3%;
+    gap: 250px;
     max-width: 200ch;
+    padding: 10px;
+    background-color: #011627;
 
 }
 
@@ -26,6 +29,7 @@
     padding: 15px;
     /* border: 1px solid black; */
     border-radius: 7px;
+    background-color: #eee;
 }
 .newsitems-container:hover {
     /* cursor: pointer; */

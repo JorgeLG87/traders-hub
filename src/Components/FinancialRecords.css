@@ -1,49 +1,100 @@
-.financial-tickerdata-container {
-    display: flex;
+.financials-form {
+    margin-left: 50%;
 }
 
-
-.financial-ticker-form {
-    display: flex;
-    position: relative;
-    margin-left: 42.5%;
-    margin-top: 50px;
-}
-
-.financial-calendar {
-    display: flex;
-    position: relative;
-    margin-top: 50px;
-    margin-left: 10%;
-    width: 120px;
-    height: 27px;
-    border-radius: 7px;
-    border: none;
-    outline: 1px solid #011627;
-}
-
-.financial-ticker {
+.ticker-input {
     display: flex;
     position: relative;
     text-align: center;
     margin-left: 0%;
-    margin-top: 0px;
+    margin-top: 100px;
     height: 25px;
     border: none;
     border-radius: 7px;
     outline: 1.5px solid #011627;
 }
 
-.tradingview-widget-container {
-    display: block;
-    margin-top: 100px;
-    margin-left: 375px;
-    width: 100px;
-    height: 1000px;
+.financials-form-container {
+    /* border: 1px solid black; */
+    height: 457px;
 }
 
-.tradingview-widget-container_widget {
-    display: block;
-    width: 100px;
-    height: 1000px;
+.financial-records-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option1 {
+    width: 150px;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 120px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid black;;
+}
+
+.option1:hover {
+    cursor: pointer;
+}
+
+.option2 {
+    width: 150px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 120px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid black;;
+}
+
+.option2:hover {
+    cursor: pointer;
+}
+
+.option3 {
+    width: 150px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 120px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid black;;
+}
+
+.option3:hover {
+    cursor: pointer;
+}
+
+.option4 {
+    width: 175px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 120px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid black;;
+}
+
+.option4:hover {
+    cursor: pointer;
+}
+
+.company-name {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 27px;
+}
+
+.label1 {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.label2 {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 50px;
 }

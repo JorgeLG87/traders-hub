@@ -19,15 +19,14 @@ export default function Ticker({ getHighLows, newsOfTicker }) {
     }
     
     
-    // useEffect(() => {
-    //     getHighLows(ticker.toUpperCase(), date).then(res => setData(res));
-    //     newsOfTicker(ticker).then(res => setInfo(res.results));
-    // },[ticker])
+    useEffect(() => {
+        getHighLows(ticker.toUpperCase(), date).then(res => setData(res));
+        newsOfTicker(ticker).then(res => setInfo(res.results));
+    },[ticker])
 
     return (
         <div className="tickerbody-container">
             <div className="form-tickerdata-container">
-
                 <form onSubmit={handleSubmit} className="ticker-form">
                     <input id="ticker" className="ticker" type="text" placeholder="Ticker Symbol" />
                 </form>
@@ -41,7 +40,8 @@ export default function Ticker({ getHighLows, newsOfTicker }) {
                 <p>Low: {data.low}</p>  
                 <p>Volume: {data.volume}</p>    
             </div>
-        
+            <br></br>
+            <br></br>
             <News info={info}/> 
             
       

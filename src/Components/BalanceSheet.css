@@ -1,0 +1,134 @@
+.balance-sheet-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 120px;
+}
+
+.label1 {
+    font-weight: bold;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 200px;
+    .label2 {
+        color: red;
+    }
+    
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 270px; 
+}
+
+.row3 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 290px; 
+}
+
+.row4 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 220px;
+}
+
+.row5 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 200px; 
+    .label2 {
+        color: red;
+    }
+    
+}
+
+.row6 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 280px; 
+}
+
+.row7 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 240px; 
+}
+
+.row8 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 270px; 
+}
+
+.row9 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 250px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row10 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 800px;
+    gap: 210px;
+    .label2 {
+        color: red;
+    }
+}
+
+.row11 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    width: 800px;
+    gap: 240px; 
+}
+
+.row12 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    width: 800px;
+    gap: 290px; 
+   .label2 {
+    color: red;
+   }
+}

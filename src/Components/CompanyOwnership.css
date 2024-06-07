@@ -1,0 +1,12 @@
+.container {
+    background: linear-gradient(120deg, #011627, #1493fb);
+    background-clip: text;
+    margin-left: 45%;
+    margin-top: 200px;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: transparent;
+}
