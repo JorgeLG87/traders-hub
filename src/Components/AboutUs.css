@@ -1,0 +1,41 @@
+.aboutUs-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    background: linear-gradient(120deg, #011627, #1493fb);
+    background-clip: text;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    font-family: "Montserrat";
+    color: transparent;
+    font-size: 40px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 230px;
+}
+
+.links-container {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 250px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.links-icon {
+    width: 30px;
+}
+
+.links-text {
+    font-size: 20px;
+}
